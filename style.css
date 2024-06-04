@@ -1,0 +1,549 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  border: border-box;
+}
+
+/* ----------------Navigation Bar-------------------- */
+
+.navbar {
+  height: 60px;
+  background-color: #0f1111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.border {
+  border: 0.5px solid transparent;
+}
+.border:hover {
+  border: 0.5px solid white;
+}
+
+/* Box 1   (Amazon logo) */
+
+.nav_logo {
+  height: 50px;
+  width: 113px;
+}
+.logo {
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  height: 50px;
+  width: 100%;
+}
+
+/* Box 2   (Address)*/
+
+.nav_address {
+  height: 40px;
+  width: 70px;
+  padding-left: 9px;
+  padding-right: 9px;
+  padding-top: 9px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+}
+.address_icon {
+  display: flex;
+  align-items: center;
+}
+.add1 {
+  font-size: 0.8rem;
+  color: #cccccc;
+  margin-left: 15px;
+}
+.add2 {
+  font-size: 1rem;
+  color: #e8e6e3;
+  margin-left: 2px;
+}
+
+/* Box 3   (Search bar)*/
+
+.nav_search {
+  display: flex;
+  justify-content: space-evenly;
+  width: 700px;
+  height: 40px;
+}
+.nav_search:hover {
+  border: 3px solid orange;
+  border-radius: 7px;
+}
+.search_select {
+  width: 50px;
+  background-color: #f3f3f3;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  border: none;
+  text-align: center;
+}
+.search_input {
+  font-size: 15px;
+  width: 100%;
+  border: none;
+}
+.search_button {
+  height: 40px;
+  width: 45px;
+  background-color: rgb(243, 172, 85);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-style: none;
+  font-size: 20px;
+}
+.search_button:hover {
+  background-color: rgb(255, 162, 0);
+}
+
+/* Box 4   (Sign in & Accounts)*/
+
+.nav_signin {
+  height: 50px;
+  width: 131px;
+  background-color: #0f1111;
+  padding-right: 9px;
+  padding-left: 10px;
+}
+.nav_hello {
+  height: 14px;
+  width: 70px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.nav_accounts {
+  height: 16px;
+  width: 113px;
+  font-size: 15px;
+  font-weight: 520;
+}
+
+/* Box 5   (Cart)*/
+
+.nav_cart {
+  height: 50px;
+  width: 84px;
+  display: flex;
+  align-items: baseline;
+}
+.cart {
+  font-size: 32px;
+  padding-top: 10px;
+}
+
+/* -----------------------Panal------------------- */
+
+.panal {
+  color: white;
+  font-size: 14px;
+  padding-left: 11px;
+  height: 40px;
+  background-color: #222f3d;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.panal_menu {
+  width: 60px;
+  font-weight: 700;
+}
+.panal_options {
+  width: 500px;
+}
+.panal_options a {
+  color: white;
+  margin-left: 13px;
+  text-decoration: none;
+}
+
+/* ------------------Hero section---------------- */
+
+.hero-section {
+  height: 400px;
+  width: 100%;
+  background-image: url(hero_image.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.hero_message {
+  height: 40px;
+  width: 1058px;
+  background-color: white;
+  color: black;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.hero_message a {
+  color: #007185;
+  text-decoration: none;
+}
+
+/* -----------------------shop-section----------------------- */
+
+.shop-section {
+  background-color: #e2e7e6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.box1 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box1_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box1_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box1_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box1_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box2 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box2_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box2_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box2_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box2_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box3 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box3_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box3_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box3_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box3_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box4 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box4_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box4_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box4_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box4_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box5 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box5_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box5_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box5_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box5_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box6 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box6_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box6_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box6_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box6_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box7 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box7_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box7_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box7_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box7_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+.box8 {
+  height: 385px;
+  width: 310px;
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  margin-bottom: 23px;
+}
+.box8_heading {
+  font-size: 21px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+}
+.box8_image {
+  height: 303px;
+  width: 270px;
+  background-image: url(box8_image.jpg);
+  background-size: cover;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+.box8_shopnow {
+  font-size: 13px;
+  text-decoration: none;
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: 20px;
+}
+
+/* -----------------Footer------------------ */
+
+.foot_panal_1 {
+  height: 50px;
+  width: 100%;
+  background-color: #37475a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.foot_panal_1 a {
+  height: 19px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: white;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.foot_panal_2 {
+  color: white;
+  background-color: #232f3e;
+  height: 380px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.foot_panal_2 ul {
+  height: 318px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+.foot_panal_2 h4 {
+  height: 17px;
+  margin-top: 6px;
+  margin-bottom: 14px;
+}
+.foot_panal_2 li {
+  height: 17px;
+  list-style: none;
+  margin-bottom: 10px;
+}
+.foot_panal_2 a {
+  font-size: 14px;
+  color: #dddddd;
+  text-decoration: none;
+  height: 17px;
+  margin-bottom: 10px;
+}
+
+.foot_panal_3 {
+  height: 88px;
+  width: 100%;
+  background-color: #232f3e;
+  border-top: 0.2px solid rgba(128, 128, 128, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.amazon_logo {
+  height: 50px;
+  width: 96px;
+  background-image: url(amazon_logo.png);
+  background-size: cover;
+  margin-right: 70px;
+}
+.language_currency_country {
+  height: 35px;
+  width: 430px;
+  display: flex;
+}
+.language_currency_country div {
+  height: 34px;
+  width: 120px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-radius: 3px;
+  margin-right: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #dddddd;
+}
+
+.foot_panal_4 {
+  height: 37px;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  background-color: #131a22;
+  font-size: 12px;
+  text-align: center;
+  color: #dddddd;
+}
+.foot_panal_4 a {
+  color: #dddddd;
+  text-decoration: none;
+  padding-left: 7.2px;
+  padding-right: 7.2px;
+}
+.copyright p {
+  margin-top: 5px;
+}
